@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mahmoud Gomaa</h1>
-<h2 align="center">Full Stack and Web Pentester</h2>
+<h2 align="center">Full Stack Dev and Web Pentester</h2>
 <p align="center">I'm passionate about Cybersecurity and AI, always learning, experimenting, and working on exciting projects. 🛠️ Let's dive into the digital universe together! 🌌</p>
 
 <h2>About me:</h2>
