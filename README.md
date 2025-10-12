@@ -19,12 +19,6 @@
   </a>
 </p>
 
-<p align="left">
-  <a href="https://twitter.com/mahmoud56273291" target="blank">
-    <img src="https://img.shields.io/twitter/follow/mahmoud56273291?logo=twitter&style=for-the-badge" alt="mahmoud56273291" />
-  </a>
-</p>
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://codepen.io/magoma394" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="magoma394" height="30" width="40" /></a>
