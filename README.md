@@ -14,10 +14,6 @@
 <p><strong>⚡ Fun fact: I believe AI is the closest thing we have to magic right now. I'm here to learn it, shape it, and have fun with it!</strong></p>
 
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=magoma394&label=Profile%20views&color=0e75b6&style=flat" alt="magoma394" />
-</p>
-
-<p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=magoma394" alt="magoma394" />
   </a>
