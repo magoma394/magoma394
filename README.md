@@ -6,7 +6,7 @@
 <p>🎓 AI Student at Delta University for Science and Technology</p>
 <ul>
   <li>🛡️ Cybersecurity Enthusiast – always trying to secure the matrix</li>
-  <li>👾 Tech Nerd with a knack for problem-solving and coding (Python is my weapon of choice 🐍)</li>
+  <li>👾 Tech Nerd with a knack for problem-solving and coding</li>
   <li>📚 On a mission to combine AI and cybersecurity for a safer digital world</li>
 </ul>
 
