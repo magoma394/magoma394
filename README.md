@@ -1,152 +1,200 @@
-<h1 align="center">Hi 👋, I'm Mahmoud</h1>
-<h2 align="center">Full Stack Dev & Security Enthusiast </h2>
-<p align="center">I'm passionate about Cybersecurity and AI, always learning, experimenting, and working on exciting projects. 🛠️ Let's dive into the digital universe together! 🌌</p>
+<!-- Epic Header -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&section=header&text=Mahmoud%20Gomaa&fontSize=35&fontColor=00ff41&animation=fadeIn&fontAlignY=35&desc=Security%20Engineer%20|%20Full-Stack%20Developer%20|%20Digital%20Forensics%20Enthusiast&descAlignY=55&descSize=15" alt="Header"/>
 
-<h2>About me:</h2>
-<p>🎓 AI Student at Delta University for Science and Technology</p>
-<ul>
-  <li>🛡️ Cybersecurity Enthusiast – always trying to secure the matrix</li>
-  <li>👾 Tech Nerd with a knack for problem-solving and coding</li>
-  <li>📚 On a mission to combine AI and cybersecurity for a safer digital world</li>
-</ul>
+</div>
+<div align="center">
+  <p>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&center=true&width=700&height=60&color=00d4ff&lines=Automate+workflows%2C+polish+user+experience;Security+first%2C+usability+always;Reproducibility+is+power;From+SOC+triage+to+full-stack+builds;Privacy-first+agents+for+real-world+impact">
+  </p>
+</div>
 
-<h4>Fun fact:</h4>
-<p><strong>⚡ Fun fact: I believe AI is the closest thing we have to magic right now. I'm here to learn it, shape it, and have fun with it!</strong></p>
+---
+<div align="center">
+  <!-- Profile Views Counter -->
+  <img src="https://komarev.com/ghpvc/?username=magoma394&label=Profile%20Views&color=brightgreen&style=for-the-badge" alt="Profile Views" />
 
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=magoma394" alt="magoma394" />
-  </a>
+<div align="center">
+
+---
+
+## 💫 About Me
+
+<p align="center">
+  I'm a Security Engineer and Full-Stack Developer passionate about building robust, demo-ready automation agents and mastering SOC workflows. I thrive on reproducibility, clarity, and user experience polish — whether I'm designing UI/UX or investigating security incidents.
 </p>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://codepen.io/magoma394" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="magoma394" height="30" width="40" /></a>
-  <a href="https://dev.to/magoma" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="magoma" height="30" width="40" /></a>
-  <a href="https://twitter.com/mahmoud56273291" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mahmoud56273291" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/mahmoud-gomaa-20a6a4275" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mahmoud-gomaa-20a6a4275" height="30" width="40" /></a>
-  <a href="https://stackoverflow.com/users/23192454" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="23192454" height="30" width="40" /></a>
-  <a href="https://codesandbox.com/magoma" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codesandbox.svg" alt="magoma" height="30" width="40" /></a>
-  <a href="https://kaggle.com/magoma394" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="magoma394" height="30" width="40" /></a>
-  <a href="https://fb.com/profile.php?id=100089887356792" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="profile.php?id=100089887356792" height="30" width="40" /></a>
-  <a href="https://instagram.com/magoma.39" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="magoma394" height="30" width="40" /></a>
-  <a href="https://dribbble.com/magoma394" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="magoma394" height="30" width="40" /></a>
-  <a href="https://www.behance.net/mahmoudgomaa20" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="mahmoudgomaa20" height="30" width="40" /></a>
-  <a href="https://hashnode.com/@magoma" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hashnode.svg" alt="@magoma" height="30" width="40" /></a>
-  <a href="https://medium.com/@mg4683601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@mg4683601" height="30" width="40" /></a>
-  <a href="https://www.youtube.com/c/magoma" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="magoma" height="30" width="40" /></a>
-  <a href="https://www.codechef.com/users/magoma" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="magoma" height="30" width="40" /></a>
-  <a href="https://www.hackerrank.com/mg4683601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="mg4683601" height="30" width="40" /></a>
-  <a href="https://www.leetcode.com/mg4683601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mg4683601" height="30" width="40" /></a>
-  <a href="https://www.hackerearth.com/@mg4683601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@mg4683601" height="30" width="40" /></a>
-  <a href="https://auth.geeksforgeeks.org/user/mg468eywv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="mg468eywv" height="30" width="40" /></a>
-  <a href="https://www.topcoder.com/members/magoma39" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="magoma39" height="30" width="40" /></a>
-  <a href="https://discord.gg/magoma7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="magoma7" height="30" width="40" /></a>
+<p align="center">
+  🔭 Currently working on expanding my portfolio with security case studies, refining SOC playbooks
+  <br/>
+  👯 Looking to collaborate on security engineering projects, workflow automation tools, and open-source full-stack applications
+  <br/>
+  🌱 Currently learning SOC alert triage workflows, forensic evidence collection, SIEM integration (Elastic & Splunk), and incident response methodologies
+  <br/>
+  💬 Ask me about workflow automation and full-stack development
+  <br/>
+  ⚡ Fun fact: I design my own custom icons and demo checklists to make projects feel polished and professional
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://angular.io" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg" alt="angularjs" width="40" height="40"/>
+### 🤝 Connect with me:
+<div align="center">
+  <a href="https://github.com/magoma394">
+    <img src="https://img.shields.io/github/followers/magoma394?label=Followers&style=social" alt="GitHub Followers">
   </a>
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/>
+  <a href="https://github.com/magoma394?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-View%20All-blue?style=flat&logo=github" alt="GitHub Repositories">
   </a>
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
+  <a href="https://linkedin.com/in/magoma39">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn">
   </a>
-  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/>
+  <a href="https://x.com/magoma394">
+    <img src="https://img.shields.io/badge/X-Follow-black?style=flat&logo=x" alt="X / Twitter">
   </a>
-  <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+  <a href="https://instagram.com/magoma.39">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
   </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+  <a href="https://magoma.me">
+    <img src="https://img.shields.io/badge/Portfolio-magoma.me-00d4ff?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio">
   </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
+  <a href="mailto:mahmoudgomaa394@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
-  </a>
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://graphql.org" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/>
-  </a>
-  <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/>
-  </a>
-  <a href="https://hive.apache.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-  </a>
-  <a href="https://opencv.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/>
-  </a>
-  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/>
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-  </a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-  </a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
-  </a>
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer">
-    <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
-  </a>
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
-  </a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-  </a>
-  <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer">
-    <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/>
-  </a>
-</p>
+</div>
+
+</div>
+
+<br/>
+
+---
+<!-- Epic GitHub Stats Section -->
+<div align="center">
+<div align="center">
+      <img height="150em" src="https://github-readme-stats.vercel.app/api?username=magoma394&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0A0E0A&title_color=00FF41&icon_color=00D4FF&text_color=FFFFFF&border_radius=10" alt="GitHub Stats"/>
+      <img height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=magoma394&theme=dark&hide_border=true&background=0A0E0A&stroke=00FF41&ring=00D4FF&fire=00FF41&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=00FF41&sideNums=00D4FF&dates=FFFFFF" alt="GitHub Streak"/>
+  </div>
+
+    
+  <!-- GitHub Trophies -->
+  <div align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=magoma394&theme=matrix&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies"/>
+  </div>
+
+---
+
+# 💻 Tech Stack & Tools
+
+## 💾 Operating Systems
+<div align="center">
+
+![Kubuntu](https://img.shields.io/badge/Kubuntu-%230079C1.svg?style=for-the-badge&logo=kubuntu&logoColor=white)
+![X11](https://img.shields.io/badge/X11-%23F28834.svg?style=for-the-badge&logo=xorg&logoColor=white)
+![Wayland](https://img.shields.io/badge/Wayland-%23FFBC00.svg?style=for-the-badge&logo=wayland&logoColor=black)
+
+</div> 
+<table>
+<tr>
+<td valign="top" width="50%">
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=magoma394&show_icons=true&locale=en&layout=compact" alt="magoma394" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=magoma394&show_icons=true&locale=en" alt="magoma394" /></p>
+## 🛡️ Security Engineering & Forensics
+<div align="center">
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=magoma394&" alt="magoma394" /></p>
+![Elastic](https://img.shields.io/badge/Elastic%20SIEM-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Digital Forensics](https://img.shields.io/badge/Digital%20Forensics-A81D33?style=for-the-badge&logo=gnubash&logoColor=white)
+![SOC Triage](https://img.shields.io/badge/SOC%20Triage-2A6B3D?style=for-the-badge&logo=windowsterminal&logoColor=white)
+![Incident Response](https://img.shields.io/badge/Incident%20Response-FF6633?style=for-the-badge&logo=hacker-news&logoColor=white)
+
+</div>
+
+## 🚀 Programming Languages
+<div align="center">
+
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+</div>
+
+## 🗄️ Databases
+<div align="center">
+
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+## 🔧 DevOps & Automation
+<div align="center">
+
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
+
+</td>
+<td valign="top" width="50%">
+
+## 🌐 Web Development & APIs
+<div align="center">
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+</div>
+
+## ☁️ Cloud & Hosting
+<div align="center">
+
+![VPS](https://img.shields.io/badge/VPS-%230167ff.svg?style=for-the-badge&logo=digitalOcean&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
+![Shared Hosting](https://img.shields.io/badge/Shared%20Hosting-43B02A?style=for-the-badge&logo=hostinger&logoColor=white)
+
+</div>
+
+## 🎨 UI/UX Design
+<div align="center">
+
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Custom Icons](https://img.shields.io/badge/Custom%20Icons-00d4ff?style=for-the-badge&logo=iconify&logoColor=white)
+![Demo Templates](https://img.shields.io/badge/Demo%20Templates-FF6633?style=for-the-badge&logo=notion&logoColor=white)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<!-- Epic Snake Animation -->
+<div align="center">
+  <h2>🐍 The Matrix Snake Has You... 🐍</h2>
+  
+  <!-- Snake Animation Options -->
+  <div align="center">
+    <!-- Primary Snake - Dark Theme -->
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/magoma394/magoma394/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/magoma394/magoma394/output/github-snake.svg">
+      <img alt="Snake Animation" src="https://raw.githubusercontent.com/magoma394/magoma394/output/github-contribution-grid-snake-dark.svg" style="width: 100%; max-width: 900px;"/>
+    </picture>
+  </div>
+  
+<!-- Epic Footer -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer&animation=twinkling" alt="Footer"/>
+</div>
