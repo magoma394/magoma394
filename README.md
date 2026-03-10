@@ -173,11 +173,6 @@
 <br/>
 
 ---
-
-<!-- Epic Snake Animation -->
-<div align="center">
-  <h2>🐍 The Matrix Snake Has You... 🐍</h2>
-  
   <!-- Snake Animation Options -->
   <div align="center">
     <!-- Primary Snake - Dark Theme -->
