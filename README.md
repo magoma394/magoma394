@@ -65,6 +65,34 @@
 
 <br/>
 
+<!-- START_TERMINAL -->
+```text
+         _,.-------.,_             magoma@thinkpad -------------------------------
+     ,;~'             '~;,         OS: ............... Kubuntu (Linux)
+   ,;                     ;,       Uptime: ........... 21 years, 10 months, 4 days
+  ;                         ;      Host: ............. Lenovo ThinkPad T495
+ ,'                         ',     Role: ............. Security Engineer & Full-Stack
+,;                           ;,    Education: ........ B.Sc. Artificial Intelligence
+; ;      .           .      ; ;    
+| ;   ______       ______   ; |    Languages.Code: ... Go, Python, JavaScript, Bash
+|  `/~"     ~" . "~     "~'  |    Languages.Human: .. Technical English
+|  ~  ,-~~~^~, | ,~^~~~-,  ~  |    
+ |   |        | |        |   |     Interests.Core: ... Cybersec, Digital Forensics, UI/UX
+ |   l       / | \       !   |     Interests.Tech: ... n8n, Elastic SIEM, Docker
+ .~  (__,.--" .^. "--.,__)  ~.     Hobbies: .......... Football, Reading, Video Games
+ |     ---;' / | \ `;---     |     
+  \__.       \/^\/       .__/      Contact.Email: .... ma.gomaa394@gmail.com
+   V| \                 / |V       Contact.Web: ...... magoma.me
+    | |T~\___!___!___/~T| |        Contact.X: ........ @magoma394
+    | |`IIII_I_I_I_IIII'| |        
+    |  \,III I I I III,/  |        
+     \   `~~~~~~~~~~'    /         
+       \   .       .   /           
+         \.    ^    ./             
+           ^~~~^~~~^               
+```
+<!-- END_TERMINAL -->
+
 ---
 <!-- Epic GitHub Stats Section -->
 <div align="center">
