@@ -69,7 +69,7 @@
 ```text
          _,.-------.,_             magoma@thinkpad -------------------------------
      ,;~'             '~;,         OS: ............... Kubuntu (Linux)
-   ,;                     ;,       Uptime: ........... 21 years, 10 months, 4 days
+   ,;                     ;,       Uptime: ........... 21 years, 10 months, 5 days
   ;                         ;      Host: ............. Lenovo ThinkPad T495
  ,'                         ',     Role: ............. Security Engineer & Full-Stack
 ,;                           ;,    Education: ........ B.Sc. Artificial Intelligence
