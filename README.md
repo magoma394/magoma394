@@ -1,76 +1,9 @@
-<!-- Epic Header -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=180&section=header&text=Mahmoud%20Gomaa&fontSize=35&fontColor=00ff41&animation=fadeIn&fontAlignY=35&desc=Security%20Engineer%20|%20Full-Stack%20Developer%20|%20Digital%20Forensics%20Enthusiast&descAlignY=55&descSize=15" alt="Header"/>
-
-</div>
-<div align="center">
-  <p>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&center=true&width=700&height=60&color=00d4ff&lines=Automate+workflows%2C+polish+user+experience;Security+first%2C+usability+always;Reproducibility+is+power;From+SOC+triage+to+full-stack+builds;Privacy-first+agents+for+real-world+impact">
-  </p>
-</div>
-
----
-<div align="center">
-  <!-- Profile Views Counter -->
-  <img src="https://komarev.com/ghpvc/?username=magoma394&label=Profile%20Views&color=brightgreen&style=for-the-badge" alt="Profile Views" />
-
-<div align="center">
-
----
-
-## 💫 About Me
-
-<p align="center">
-  I'm a Security Engineer and Full-Stack Developer passionate about building robust, demo-ready automation agents and mastering SOC workflows. I thrive on reproducibility, clarity, and user experience polish — whether I'm designing UI/UX or investigating security incidents.
-</p>
-
-<p align="center">
-  🔭 Currently working on expanding my portfolio with security case studies, refining SOC playbooks
-  <br/>
-  👯 Looking to collaborate on security engineering projects, workflow automation tools, and open-source full-stack applications
-  <br/>
-  🌱 Currently learning SOC alert triage workflows, forensic evidence collection, SIEM integration (Elastic & Splunk), and incident response methodologies
-  <br/>
-  💬 Ask me about workflow automation and full-stack development
-  <br/>
-  ⚡ Fun fact: I design my own custom icons and demo checklists to make projects feel polished and professional
-</p>
-
-### 🤝 Connect with me:
-<div align="center">
-  <a href="https://github.com/magoma394">
-    <img src="https://img.shields.io/github/followers/magoma394?label=Followers&style=social" alt="GitHub Followers">
-  </a>
-  <a href="https://github.com/magoma394?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-View%20All-blue?style=flat&logo=github" alt="GitHub Repositories">
-  </a>
-  <a href="https://linkedin.com/in/magoma39">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn">
-  </a>
-  <a href="https://x.com/magoma394">
-    <img src="https://img.shields.io/badge/X-Follow-black?style=flat&logo=x" alt="X / Twitter">
-  </a>
-  <a href="https://instagram.com/magoma.39">
-    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
-  </a>
-  <a href="https://magoma.me">
-    <img src="https://img.shields.io/badge/Portfolio-magoma.me-00d4ff?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio">
-  </a>
-  <a href="mailto:ma.gomaa394@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email">
-  </a>
-</div>
-
-</div>
-
-<br/>
-
 <!-- START_TERMINAL -->
 <div align="center">
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; width: 100%; max-width: 950px;">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; width: 100%; max-width: 950px; background-color: transparent;">
 <tr style="border: none;">
 <!-- Left Column: Solid Block Hacker Avatar -->
-<td align="left" valign="top" style="border: none; padding-right: 15px; font-family: monospace; font-size: 6.5px; line-height: 1.05; letter-spacing: 0.5px; white-space: pre; color: #00d4ff;">
+<td align="left" valign="middle" style="border: none; padding-right: 20px; font-family: 'Courier New', Courier, monospace; font-size: 7px; line-height: 1.1; letter-spacing: 0px; white-space: pre; color: #00d4ff;">
                                                                                                     
                                                                                                     
                                        ██████████████████████                                       
@@ -128,46 +61,65 @@
                                                                                                     
 </td>
 <!-- Right Column: System Specs -->
-<td align="left" valign="middle" style="border: none; padding-left: 15px;">
+<td align="left" valign="middle" style="border: none; padding-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 13.5px; line-height: 1.6; white-space: pre; color: #c9d1d9;">
+magoma@thinkpad -------------------------------
+OS: ............... Kubuntu (Linux)
+Uptime: ........... 21 years, 10 months, 9 days
+Host: ............. Lenovo ThinkPad T495
+Role: ............. Security Engineer & Full-Stack
+Education: ........ B.Sc. Artificial Intelligence
 
-```text
-         _,.-------.,_             magoma@thinkpad -------------------------------
-     ,;~'             '~;,         OS: ............... Kubuntu (Linux)
-   ,;                     ;,       Uptime: ........... 21 years, 10 months, 9 days
-  ;                         ;      Host: ............. Lenovo ThinkPad T495
- ,'                         ',     Role: ............. Security Engineer & Full-Stack
-,;                           ;,    Education: ........ B.Sc. Artificial Intelligence
-; ;      .           .      ; ;    
-| ;   ______       ______   ; |    Languages.Code: ... Go, Python, JavaScript, Bash
-|  `/~"     ~" . "~     "~'  |    Languages.Human: .. Technical English
-|  ~  ,-~~~^~, | ,~^~~~-,  ~  |    
- |   |        | |        |   |     Interests.Core: ... Cybersec, Digital Forensics, UI/UX
- |   l       / | \       !   |     Interests.Tech: ... n8n, Elastic SIEM, Docker
- .~  (__,.--" .^. "--.,__)  ~.     Hobbies: .......... Football, Reading, Video Games
- |     ---;' / | \ `;---     |     
-  \__.       \/^\/       .__/      Contact.Email: .... ma.gomaa394@gmail.com
-   V| \                 / |V       Contact.Web: ...... magoma.me
-    | |T~\___!___!___/~T| |        Contact.X: ........ @magoma394
-    | |`IIII_I_I_I_IIII'| |        
-    |  \,III I I I III,/  |        
-     \   `~~~~~~~~~~'    /         
-       \   .       .   /           
-         \.    ^    ./             
-           ^~~~^~~~^               
-```
+Languages.Code: ... Go, Python, JavaScript, Bash
+Languages.Human: .. Technical English
+
+Interests.Core: ... Cybersec, Digital Forensics, UI/UX
+Interests.Tech: ... n8n, Elastic SIEM, Docker
+Hobbies: .......... Football, Reading, Video Games
+
+Contact.Email: .... ma.gomaa394@gmail.com
+Contact.Web: ...... magoma.me
+Contact.X: ........ @magoma394
 </td>
 </tr>
 </table>
 </div>
 <!-- END_TERMINAL -->
 
+<br/>
+
+### 🤝 Connect with me:
+<div align="center">
+  <a href="https://github.com/magoma394">
+    <img src="https://img.shields.io/github/followers/magoma394?label=Followers&style=social" alt="GitHub Followers">
+  </a>
+  <a href="https://github.com/magoma394?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-View%20All-blue?style=flat&logo=github" alt="GitHub Repositories">
+  </a>
+  <a href="https://linkedin.com/in/magoma39">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="https://x.com/magoma394">
+    <img src="https://img.shields.io/badge/X-Follow-black?style=flat&logo=x" alt="X / Twitter">
+  </a>
+  <a href="https://instagram.com/magoma.39">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="https://magoma.me">
+    <img src="https://img.shields.io/badge/Portfolio-magoma.me-00d4ff?style=flat&logo=googlechrome&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="mailto:ma.gomaa394@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</div>
+
+<br/>
+
 ---
 <!-- Epic GitHub Stats Section -->
 <div align="center">
-<div align="center">
       <img height="150em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=magoma394&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0A0E0A&title_color=00FF41&icon_color=00D4FF&text_color=FFFFFF&border_radius=10" alt="GitHub Stats"/>
       <img height="150em" src="https://streak-stats.demolab.com/?user=magoma394&theme=dark&hide_border=true&background=0A0E0A&stroke=00FF41&ring=00D4FF&fire=00FF41&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=00FF41&sideNums=00D4FF&dates=FFFFFF" alt="GitHub Streak"/>
-  </div>
+</div>
 
 ---
 
@@ -184,8 +136,6 @@
 <table>
 <tr>
 <td valign="top" width="50%">
-
-
 
 ## 🛡️ Security Engineering & Forensics
 <div align="center">

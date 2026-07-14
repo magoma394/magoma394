@@ -25,16 +25,14 @@ def main():
     # Create the injected HTML
     terminal_text = f"""<!-- START_TERMINAL -->
 <div align="center">
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; width: 100%; max-width: 950px;">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; width: 100%; max-width: 950px; background-color: transparent;">
 <tr style="border: none;">
 <!-- Left Column: Solid Block Hacker Avatar -->
-<td align="left" valign="top" style="border: none; padding-right: 15px; font-family: monospace; font-size: 6.5px; line-height: 1.05; letter-spacing: 0.5px; white-space: pre; color: #00d4ff;">
+<td align="left" valign="middle" style="border: none; padding-right: 20px; font-family: 'Courier New', Courier, monospace; font-size: 7px; line-height: 1.1; letter-spacing: 0px; white-space: pre; color: #00d4ff;">
 {ascii_art}
 </td>
 <!-- Right Column: System Specs -->
-<td align="left" valign="middle" style="border: none; padding-left: 15px;">
-
-```text
+<td align="left" valign="middle" style="border: none; padding-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 13.5px; line-height: 1.6; white-space: pre; color: #c9d1d9;">
 magoma@thinkpad -------------------------------
 OS: ............... Kubuntu (Linux)
 Uptime: ........... {uptime_str}
@@ -52,7 +50,6 @@ Hobbies: .......... Football, Reading, Video Games
 Contact.Email: .... ma.gomaa394@gmail.com
 Contact.Web: ...... magoma.me
 Contact.X: ........ @magoma394
-```
 </td>
 </tr>
 </table>
