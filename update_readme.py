@@ -17,43 +17,53 @@ def main():
     # Read ASCII Art
     try:
         with open('ascii-art.txt', 'r', encoding='utf-8') as f:
-            ascii_art = f.read().strip('\n') # keep spaces, remove empty newlines at ends
+            ascii_lines = f.read().splitlines()
     except FileNotFoundError:
         print("Error: ascii-art.txt not found. Please ensure it exists in the same directory.")
         return
+        
+    # Trim common leading whitespace to save horizontal space
+    min_spaces = min(len(line) - len(line.lstrip()) for line in ascii_lines if line.strip())
+    ascii_lines = [line[min_spaces:] for line in ascii_lines]
     
-    # Create the injected HTML
+    # Pad all lines to max width so we can append text cleanly
+    max_width = max(len(line) for line in ascii_lines)
+    ascii_lines = [line.ljust(max_width) for line in ascii_lines]
+    
+    terminal_text_lines = [
+        "magoma@thinkpad -------------------------------",
+        "OS: ............... Kubuntu (Linux)",
+        f"Uptime: ........... {uptime_str}",
+        "Host: ............. Lenovo ThinkPad T495",
+        "Role: ............. Security Engineer & Full-Stack",
+        "Education: ........ B.Sc. Artificial Intelligence",
+        "",
+        "Languages.Code: ... Go, Python, JavaScript, Bash",
+        "Languages.Human: .. Technical English",
+        "",
+        "Interests.Core: ... Cybersec, Digital Forensics, UI/UX",
+        "Interests.Tech: ... n8n, Elastic SIEM, Docker",
+        "Hobbies: .......... Football, Reading, Video Games",
+        "",
+        "Contact.Email: .... ma.gomaa394@gmail.com",
+        "Contact.Web: ...... magoma.me",
+        "Contact.X: ........ @magoma394"
+    ]
+    
+    # Vertically center the text block next to the ASCII art
+    start_line = (len(ascii_lines) - len(terminal_text_lines)) // 2
+    
+    # Append the text to the right side of the ASCII art with 6 spaces padding
+    for i, text in enumerate(terminal_text_lines):
+        ascii_lines[start_line + i] += "      " + text
+        
+    combined_terminal = "\n".join(ascii_lines)
+    
+    # Create the injected markdown
     terminal_text = f"""<!-- START_TERMINAL -->
-<div align="center">
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; width: 100%; max-width: 950px; background-color: transparent;">
-<tr style="border: none;">
-<!-- Left Column: Solid Block Hacker Avatar -->
-<td align="left" valign="middle" style="border: none; padding-right: 20px; font-family: 'Courier New', Courier, monospace; font-size: 7px; line-height: 1.1; letter-spacing: 0px; white-space: pre; color: #00d4ff;">
-{ascii_art}
-</td>
-<!-- Right Column: System Specs -->
-<td align="left" valign="middle" style="border: none; padding-left: 20px; font-family: 'Courier New', Courier, monospace; font-size: 13.5px; line-height: 1.6; white-space: pre; color: #c9d1d9;">
-magoma@thinkpad -------------------------------
-OS: ............... Kubuntu (Linux)
-Uptime: ........... {uptime_str}
-Host: ............. Lenovo ThinkPad T495
-Role: ............. Security Engineer & Full-Stack
-Education: ........ B.Sc. Artificial Intelligence
-
-Languages.Code: ... Go, Python, JavaScript, Bash
-Languages.Human: .. Technical English
-
-Interests.Core: ... Cybersec, Digital Forensics, UI/UX
-Interests.Tech: ... n8n, Elastic SIEM, Docker
-Hobbies: .......... Football, Reading, Video Games
-
-Contact.Email: .... ma.gomaa394@gmail.com
-Contact.Web: ...... magoma.me
-Contact.X: ........ @magoma394
-</td>
-</tr>
-</table>
-</div>
+```text
+{combined_terminal}
+```
 <!-- END_TERMINAL -->"""
 
     # Update README.md
