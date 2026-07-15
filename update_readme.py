@@ -22,13 +22,9 @@ def main():
         print("Error: ascii-art.txt not found. Please ensure it exists in the same directory.")
         return
         
-    # Trim common leading whitespace to save horizontal space
+    # Trim common leading whitespace to save space
     min_spaces = min(len(line) - len(line.lstrip()) for line in ascii_lines if line.strip())
     ascii_lines = [line[min_spaces:] for line in ascii_lines]
-    
-    # Pad all lines to max width so we can append text cleanly
-    max_width = max(len(line) for line in ascii_lines)
-    ascii_lines = [line.ljust(max_width) for line in ascii_lines]
     
     terminal_text_lines = [
         "magoma@thinkpad -------------------------------",
@@ -50,20 +46,58 @@ def main():
         "Contact.X: ........ @magoma394"
     ]
     
-    # Vertically center the text block next to the ASCII art
-    start_line = (len(ascii_lines) - len(terminal_text_lines)) // 2
+    # Generate SVG Content
+    char_width = 8.4
+    line_height = 18
+    font_size = 14
     
-    # Append the text to the right side of the ASCII art with 6 spaces padding
-    for i, text in enumerate(terminal_text_lines):
-        ascii_lines[start_line + i] += "      " + text
-        
-    combined_terminal = "\n".join(ascii_lines)
+    width = 1350
+    height = 1040
     
-    # Create the injected markdown
+    svg_content = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">',
+        f'<rect width="{width}" height="{height}" fill="#0d1117" rx="15"/>',
+        '<circle cx="30" cy="30" r="8" fill="#ff5f56"/>',
+        '<circle cx="60" cy="30" r="8" fill="#ffbd2e"/>',
+        '<circle cx="90" cy="30" r="8" fill="#27c93f"/>',
+        f'<g font-family="Courier New, monospace" font-size="{font_size}px" xml:space="preserve">'
+    ]
+    
+    # Left column: ASCII
+    svg_content.append('  <g fill="#00d4ff">')
+    y = 70
+    for line in ascii_lines:
+        escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+        svg_content.append(f'    <text x="30" y="{y}">{escaped_line}</text>')
+        y += line_height
+    svg_content.append('  </g>')
+    
+    # Right column: Text
+    svg_content.append('  <g fill="#c9d1d9">')
+    y_start = 70 + (len(ascii_lines) - len(terminal_text_lines)) // 2 * line_height
+    y = y_start
+    max_ascii_len = max(len(l) for l in ascii_lines)
+    x_offset = 30 + max_ascii_len * char_width + 40
+    
+    for line in terminal_text_lines:
+        escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+        svg_content.append(f'    <text x="{x_offset}" y="{y}">{escaped_line}</text>')
+        y += line_height
+    svg_content.append('  </g>')
+    
+    svg_content.append('</g>')
+    svg_content.append('</svg>')
+    
+    # Write SVG
+    with open('terminal.svg', 'w', encoding='utf-8') as f:
+        f.write("\\n".join(svg_content))
+    print("Created terminal.svg successfully!")
+    
+    # Create the injected markdown referencing the SVG
     terminal_text = f"""<!-- START_TERMINAL -->
-```text
-{combined_terminal}
-```
+<div align="center">
+  <img src="./terminal.svg" width="100%" alt="Dynamic Terminal Profile" />
+</div>
 <!-- END_TERMINAL -->"""
 
     # Update README.md
