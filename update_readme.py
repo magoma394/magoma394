@@ -22,9 +22,11 @@ def main():
         print("Error: ascii-art.txt not found. Please ensure it exists in the same directory.")
         return
         
-    # Trim common leading whitespace to save space
-    min_spaces = min(len(line) - len(line.lstrip()) for line in ascii_lines if line.strip())
-    ascii_lines = [line[min_spaces:] for line in ascii_lines]
+    # Trim common leading and trailing whitespace exactly to the bounds of the avatar
+    min_idx = min(line.find('█') for line in ascii_lines if '█' in line)
+    max_idx = max(line.rfind('█') for line in ascii_lines if '█' in line)
+    # Filter empty lines
+    ascii_lines = [line[min_idx:max_idx+1] for line in ascii_lines if line.strip()]
     
     terminal_text_lines = [
         "magoma@thinkpad -------------------------------",
@@ -46,46 +48,49 @@ def main():
         "Contact.X: ........ @magoma394"
     ]
     
-    # Generate SVG Content
-    char_width = 8.4
-    line_height = 18
-    font_size = 14
+    # Define exact fonts and dimensions to make the text large and readable 
+    # while keeping the huge 92-character wide avatar scaled down perfectly.
+    avatar_font_size = 7
+    avatar_line_height = 8
+    avatar_char_width = 4.2
     
-    width = 1350
-    height = 1040
+    text_font_size = 14
+    text_line_height = 20
+    
+    width = 950
+    height = 520
     
     svg_content = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%" height="100%">',
         f'<rect width="{width}" height="{height}" fill="#0d1117" rx="15"/>',
         '<circle cx="30" cy="30" r="8" fill="#ff5f56"/>',
         '<circle cx="60" cy="30" r="8" fill="#ffbd2e"/>',
-        '<circle cx="90" cy="30" r="8" fill="#27c93f"/>',
-        f'<g font-family="Courier New, monospace" font-size="{font_size}px" xml:space="preserve">'
+        '<circle cx="90" cy="30" r="8" fill="#27c93f"/>'
     ]
     
-    # Left column: ASCII
-    svg_content.append('  <g fill="#00d4ff">')
+    # Left column: Avatar (White Penguin)
+    svg_content.append(f'  <g font-family="Courier New, monospace" font-size="{avatar_font_size}px" fill="#ffffff" xml:space="preserve">')
     y = 70
     for line in ascii_lines:
         escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         svg_content.append(f'    <text x="30" y="{y}">{escaped_line}</text>')
-        y += line_height
+        y += avatar_line_height
     svg_content.append('  </g>')
     
-    # Right column: Text
-    svg_content.append('  <g fill="#c9d1d9">')
-    y_start = 70 + (len(ascii_lines) - len(terminal_text_lines)) // 2 * line_height
+    # Right column: System Specs
+    svg_content.append(f'  <g font-family="Courier New, monospace" font-size="{text_font_size}px" fill="#c9d1d9" xml:space="preserve">')
+    
+    # Vertically center the text next to the avatar
+    y_start = 70 + (len(ascii_lines) * avatar_line_height - len(terminal_text_lines) * text_line_height) // 2
     y = y_start
-    max_ascii_len = max(len(l) for l in ascii_lines)
-    x_offset = 30 + max_ascii_len * char_width + 40
+    x_offset = 30 + (max_idx - min_idx + 1) * avatar_char_width + 40
     
     for line in terminal_text_lines:
         escaped_line = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
         svg_content.append(f'    <text x="{x_offset}" y="{y}">{escaped_line}</text>')
-        y += line_height
+        y += text_line_height
     svg_content.append('  </g>')
     
-    svg_content.append('</g>')
     svg_content.append('</svg>')
     
     # Write SVG
